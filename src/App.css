@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #ff00ff; /* 마젠타 색상 */
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #ffe6ff; /* 마젠타의 연한 색상 */
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ff00ff; /* 마젠타 색상 */
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff00ff; /* 마젠타 색상 */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #cc00cc; /* 마젠타의 어두운 색상 */
+}
+
+div.post {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid #ff00ff; /* 마젠타 색상 */
+}
+
+h2 {
+  color: #ff00ff; /* 마젠타 색상 */
+}
